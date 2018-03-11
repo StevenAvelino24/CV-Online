@@ -9,3 +9,10 @@ export default {
   name: 'App'
 }
 </script>
+
+<style>
+  .progress-bar-label {
+    display: none;
+  }
+</style>
+
