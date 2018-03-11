@@ -6,6 +6,7 @@
       <v-layout column align-center justify-center class="white--text">
         <h1 class="white--text mb-2 display-1 text-xs-center">Steven Avelino</h1>
         <div class="subheading mb-3 text-xs-center">Technicien en développement d'applications Web</div>
+        <v-btn href="/portfolio" class="purple lighten-1">Visitez mon Portfolio</v-btn>
       </v-layout>
     </v-parallax>
   </section>
