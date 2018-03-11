@@ -5,8 +5,10 @@ import App from './App'
 import router from './router'
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
+import VueParticules from 'vue-particles'
 
 Vue.use(Vuetify)
+Vue.use(VueParticules)
 
 Vue.config.productionTip = false
 
