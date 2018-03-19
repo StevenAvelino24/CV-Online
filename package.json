@@ -11,8 +11,11 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "express": "^4.16.2",
+    "github-api": "^3.0.0",
     "vue": "^2.5.2",
+    "vue-axios": "^2.0.2",
     "vue-cute-timeline": "^1.2.4",
     "vue-particles": "^1.0.9",
     "vue-progress-bar": "^1.0.1",
