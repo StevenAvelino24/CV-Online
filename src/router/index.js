@@ -16,6 +16,10 @@ export default new Router({
       path: '/portfolio',
       name: 'Portfolio',
       component: Portfolio
+    },
+    {
+      path: '*',
+      redirect: { name: 'home' }
     }
   ],
   mode: 'history'
