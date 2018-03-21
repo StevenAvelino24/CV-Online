@@ -14,5 +14,8 @@ export default {
   .progress-bar-label {
     display: none;
   }
+  a {
+    text-decoration: none;
+  }
 </style>
 

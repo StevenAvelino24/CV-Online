@@ -4,7 +4,7 @@
       <v-parallax :src="require('@/assets/portfolio.jpg')" height="300">
       <v-layout column align-center justify-center class="black--text">
         <h1 class="black--text mb-2 display-1 text-xs-center">Portfolio</h1>
-        <v-btn href="/" class="blue darken-1">Retour à l'accueil</v-btn>
+        <router-link to="/"><v-btn class="blue darken-1">Retour à l'accueil</v-btn></router-link>
       </v-layout>
       </v-parallax>
     </section>
